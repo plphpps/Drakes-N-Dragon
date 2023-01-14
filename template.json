@@ -19,6 +19,18 @@
           "WIL": {
             "value": 10,
             "max": 10
+          },
+          "INT":{
+            "value": 10,
+            "max": 10
+          },
+          "CON":{
+            "value": 10,
+            "max": 10
+          },
+          "CHA":{
+            "value": 10,
+            "max": 10
           }
         }
       }
