@@ -258,7 +258,10 @@
 .slots-counter label,
 .STR-counter a,
 .DEX-counter a,
-.WIL-counter a {
+.WIL-counter a,
+.INT-counter a,
+.CON-counter a,
+.CHA-counter a, {
     width: 50%;
 }
 
@@ -266,7 +269,10 @@
 .slots-counter .resource-input-wrapper,
 .STR-counter .resource-input-wrapper,
 .DEX-counter .resource-input-wrapper,
-.WIL-counter .resource-input-wrapper {
+.WIL-counter .resource-input-wrapper,
+.INT-counter .resource-input-wrapper
+.CON-counter .resource-input-wrapper
+.CHA-counter .resource-input-wrapper {
     width: 50%;
 }
 
@@ -293,6 +299,18 @@
 }
 
 .WIL-counter {
+    border-radius: 0;
+}
+
+.INT-counter {
+    border-radius: 0;
+}
+
+.CON-counter {
+    border-radius: 0;
+}
+
+.CHA-counter {
     border-radius: 0 0 5px 5px;
 }
 
